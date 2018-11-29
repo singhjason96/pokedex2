@@ -1,0 +1,141 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/df/4e/8b/df4e8ba28f912bf9cdf9fa0dfc196411.png");
+  background-position: center; }
+
+.logo {
+  background-image: url("https://cdn.bulbagarden.net/upload/thumb/d/d2/Pok%C3%A9mon_logo_English.png/1200px-Pok%C3%A9mon_logo_English.png");
+  background-position: center;
+  
+}
+
+.Pokedex-Body {
+  width: 500px;
+  height: 666px; }
+
+.Pokedex-Body {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  position: relative;
+}
+
+#details {
+  background-color: #C9172C;
+  border-radius: 9px 0 0 15px;
+  box-shadow: -5px 0px 0px #860F1D;
+  width: 505px;
+  height: 670px;
+  position: relative;
+}
+
+
+
+#blue-button {
+  top: 5%;
+  left: 2%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  display: inline-block;
+  background-color: #28A9FC;
+  border: solid 10px #196A9E;
+  box-shadow: 0px 0px 0px 4px #C4C4C4; }
+
+#red-button, #yellow-button, #green-button {
+  top: 6%;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0px 0px 0px 1px #222;
+  margin: 10px;
+}
+
+#red-button {
+  background-color: #FF002B;
+  border: solid 5px #9E001B;
+  left: 15%; }
+
+#yellow-button {
+  background-color: #FFE21A;
+  border: solid 5px #A49010;
+  left: 21%; }
+
+#green-button {
+  background-color: #6EBB79;
+  border: solid 5px #336D3B;
+  left: 26.8%; }
+
+.screen {
+  position: absolute;
+  border-radius: 7px;
+  display: block;
+  background-color: #DEDEDE;
+  border: solid 8px #C9172C;
+  width: 433px;
+  height: 338px;
+  overflow: hidden;
+  margin-left: 1%;
+  margin-right: auto;
+  margin-top: 8%;
+  display: block;
+  z-index: 2;
+  top: 12%;
+  left: 2%;;}
+
+#screen-body {
+  background-color: #008000;
+  width: 335px;
+  height: 243px;
+  border-radius: 7px;
+  position: absolute;
+  margin-left: 13%;
+  margin-right: auto;
+  z-index: 3;
+  top: 27%;}
+
+
+
+#random-button {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: black;
+  top: 75%;
+  left: 2%;
+  z-index: 3;}
+
+
+
+#next-button, #prev-button {
+  position: absolute;
+  width: 65px;
+  height: 10px;
+  border-radius: 20px;
+  top: 72%;
+  z-index: 3}
+
+#prev-button {
+  position: absolute;
+  left: 20%;
+  background-color: #860F1D;
+  border: solid 1px #590A13; }
+
+#next-button {
+  position: absolute;
+  left: 60%;
+  background-color: #036492;
+  border: solid 1px #024261; }
+
+#stats-button {
+  position: absolute;
+  display: block;
+  background-color: #51AE5F;
+  width: 110px;
+  height: 60px;
+  top: 80%;
+  left: 36%;
+  z-index: 3;} */
+
+/*# sourceMappingURL=style.css.map
