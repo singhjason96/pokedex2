@@ -120,10 +120,14 @@ body {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: black;
+  background-color: #404040;
   top: 75%;
   left: 2%;
   z-index: 3;}
+
+  #random-button:hover {
+    background-color: #262626;
+  }
 
 
 
@@ -141,11 +145,19 @@ body {
   background-color: #860F1D;
   border: solid 1px #590A13; }
 
+  #prev-button:hover {
+    background-color: #730d19;
+  }
+
 #next-button {
   position: absolute;
   left: 60%;
   background-color: #036492;
   border: solid 1px #024261; }
+
+  #next-button:hover {
+    background-color: #024564;
+  }
 
 #stats-button {
   position: absolute;
@@ -155,6 +167,8 @@ body {
   height: 60px;
   top: 80%;
   left: 36%;
-  z-index: 3;} */
+  z-index: 3;}
+
+#stats-button:hover {background-color: #3e8e41}
 
 /*# sourceMappingURL=style.css.map
