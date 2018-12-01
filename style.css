@@ -1,12 +1,26 @@
+@font-face {
+  font-family: "pokemon-font";
+  src: url("fonts/pokemon-font.ttf");
+}
+#logo {
+  background-image: url("https://vignette.wikia.nocookie.net/de.nintendo/images/c/c7/Logo_pokemon.png/revision/latest?cb=20110713092552&format=original");
+  width: auto;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 20%;
+
+}
 body {
   background-image: url("https://i.pinimg.com/originals/df/4e/8b/df4e8ba28f912bf9cdf9fa0dfc196411.png");
-  background-position: center; }
-
-.logo {
-  background-image: url("https://cdn.bulbagarden.net/upload/thumb/d/d2/Pok%C3%A9mon_logo_English.png/1200px-Pok%C3%A9mon_logo_English.png");
   background-position: center;
-  
+  font-family: 'pokemon-font', monospace;
+  font-size: 1em;
+  color: #660000;
 }
+
+
 
 .Pokedex-Body {
   width: 500px;
@@ -94,6 +108,11 @@ body {
   z-index: 3;
   top: 27%;}
 
+#screen-body img {
+  height: 37%;
+  width: auto;
+  text-align: center;
+}
 
 
 #random-button {
